@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://interior-design-project-2022.netlify.app/">
+    <a href="https://devnitro5.github.io/Checkout-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devnitro5.github.io/Checkout-page/">
       Solution
     </a>
     <span> | </span>
@@ -28,7 +28,6 @@
   - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
@@ -36,8 +35,8 @@
 
 ![screenshot](./preview.png)
 
-- View the [live demo](https://interior-design-project-2022.netlify.app/)
-- 3rd Dev Challenges project
+- View the [live demo](https://devnitro5.github.io/Checkout-page/)
+- 6th Dev Challenges project
 - Mobile first
 
 ### Built With
@@ -49,7 +48,7 @@
 
 ## Features
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
 
 ## Contact
 
