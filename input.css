@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .product-img {
+    @apply w-36 object-center rounded-2xl;
+  }
+  .product-title {
+    @apply text-[0.842rem] md:text-base font-semibold;
+  }
+  .product-price {
+    @apply text-red-400 text-base mt-[0.35rem];
+  }
+  .product-qty-btn {
+    @apply border-2 border-black py-0 w-[8rem] mt-1  rounded-2xl flex items-center justify-around;
+  }
+  .input-container {
+    @apply w-full relative;
+  }
+  .input-field {
+    @apply appearance-none block w-full  text-gray-700 border border-gray-500 rounded-lg py-3 px-10 mb-3 leading-tight focus:outline-none focus:border-[1.5px] focus:border-gray-800 focus:ring-0 placeholder:text-gray-400;
+  }
+  .input-label {
+    @apply block tracking-wide text-gray-700 text-sm  mb-2;
+  }
+  .input-icon {
+    @apply absolute top-[50%] left-2 text-gray-400;
+  }
+  .validator-icon {
+    @apply absolute right-2  top-[50%];
+  }
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  #validate-field {
+    @apply border-green-400  focus:border-green-300 focus:outline-none focus:ring-0;
+  }
+  #invalidate-field {
+    @apply border-red-400   focus:border-red-500 focus:outline-none focus:ring-0;
+  }
+  #validate-icon {
+    @apply text-green-300;
+  }
+  #invalidate-icon {
+    @apply text-red-400;
+  }
+}
